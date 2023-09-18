@@ -10,7 +10,7 @@ function addlocal() {
 
     if (psw.length >= 8) {
         addLocalstorage(id, email.value, password.value)
-        // location.href = ""
+        location.href = "https://luxury-puffpuff-374130.netlify.app"
         
     } else {
         document.getElementById('alert').innerHTML = "password must be at least 8 characters long";
